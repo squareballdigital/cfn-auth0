@@ -21,13 +21,9 @@ class Auth0PromptsHandler extends Auth0ResourceHandlerBase<Auth0PromptsProps> {
     const props = this.properties;
 
     const request = stripUndefined({
-      prompt: 'signup',
-      language: 'en',
-      body: {
-        signup: {
-          'auth0-users-validation': props.UsersValidation,
-        },
-      },
+      prompt: props.Prompt,
+      language: props.Language,
+      body: props.Values,
     });
 
     console.log(`update Prompts %O`, request);
