@@ -1,0 +1,12 @@
+{
+  "auth0": {
+    "type": "rollup",
+    "options": {
+      "entrypoint": "./lib/lambda.js",
+      "install": ["auth0"],
+      "packageFilePath": "./package.json",
+      "packageInstallImage": "node:16-slim",
+      "packageLockPath": "./package-lock.json"
+    }
+  }
+}
