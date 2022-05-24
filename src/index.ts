@@ -27,3 +27,6 @@ export * from './resources/role/Auth0RoleAttributes.js';
 export * from './resources/role/Auth0RoleProps.js';
 export * from './resources/role/Auth0RoleResourceType.js';
 export * from './resources/role/makeAuth0RoleFactory.js';
+export * from './resources/tenant-settings/Auth0TenantSettingsProps.js';
+export * from './resources/tenant-settings/Auth0TenantSettingsResourceType.js';
+export * from './resources/tenant-settings/makeAuth0TenantSettingsFactory.js';
