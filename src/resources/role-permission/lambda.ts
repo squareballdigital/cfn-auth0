@@ -1,12 +1,12 @@
 import { PermissionData, PermissionsData } from 'auth0';
 import { arrayDiff } from '../../internal/arrayDiff.js';
 import { Auth0ResourceHandlerBase } from '../../internal/Auth0ResourceHandlerBase.js';
-import { Auth0RolePermissionResourceType } from './Auth0RolePermisisonResourceType.js';
 import {
   Auth0RolePermission,
   Auth0RolePermissionProps,
   decodeAuth0RolePermissionProps,
 } from './Auth0RolePermissionProps.js';
+import { Auth0RolePermissionResourceType } from './Auth0RolePermissionResourceType.js';
 
 function comparePermission(
   a: Auth0RolePermission,
