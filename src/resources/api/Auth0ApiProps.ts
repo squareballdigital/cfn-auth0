@@ -1,15 +1,13 @@
 import { array, object, string, text } from '@fmtk/decoders';
+import { Auth0ManagementClientProps } from '../../common/Auth0ManagementClientProps.js';
 
 export interface Auth0ApiScope {
   Name: string;
   Description: string;
 }
 
-export interface Auth0ApiProps {
-  Domain: string;
+export interface Auth0ApiProps extends Auth0ManagementClientProps {
   Identifier: string;
-  ManagementClientId: string;
-  ManagementClientSecret: string;
   Name: string;
   Scopes: Auth0ApiScope[];
 }

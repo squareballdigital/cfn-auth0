@@ -1,11 +1,9 @@
 import { array, object, text } from '@fmtk/decoders';
+import { Auth0ManagementClientProps } from '../../common/Auth0ManagementClientProps.js';
 
-export interface Auth0ClientGrantProps {
+export interface Auth0ClientGrantProps extends Auth0ManagementClientProps {
   Audience: string;
   ClientId: string;
-  Domain: string;
-  ManagementClientId: string;
-  ManagementClientSecret: string;
   Scope: string[];
 }
 

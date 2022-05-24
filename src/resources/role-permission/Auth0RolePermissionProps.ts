@@ -1,14 +1,12 @@
 import { array, object, string, text } from '@fmtk/decoders';
+import { Auth0ManagementClientProps } from '../../common/Auth0ManagementClientProps.js';
 
 export interface Auth0RolePermission {
   Api: string;
   Permission: string;
 }
 
-export interface Auth0RolePermissionProps {
-  Domain: string;
-  ManagementClientId: string;
-  ManagementClientSecret: string;
+export interface Auth0RolePermissionProps extends Auth0ManagementClientProps {
   Permissions: Auth0RolePermission[];
   RoleId: string;
 }

@@ -1,5 +1,6 @@
 // AUTO-GENERATED node ../makeIndex.js
 export * from './common/Auth0CustomResourceAsset.js';
+export * from './common/Auth0ManagementClientProps.js';
 export * from './common/CustomResourceInstance.js';
 export * from './common/PackagePath.js';
 export * from './resources/api/Auth0ApiAttributes.js';

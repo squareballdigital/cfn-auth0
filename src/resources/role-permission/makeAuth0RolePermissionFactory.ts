@@ -2,8 +2,8 @@ import { TemplateBuilder } from '@squareball/cfntemplate';
 import { Auth0CustomResourceAsset } from '../../common/Auth0CustomResourceAsset.js';
 import { CustomResourceInstance } from '../../common/CustomResourceInstance.js';
 import { CustomResourceFactory } from '../../internal/CustomResourceFactory.js';
-import { Auth0RolePermissionResourceType } from './Auth0RolePermisisonResourceType.js';
 import { Auth0RolePermissionProps } from './Auth0RolePermissionProps.js';
+import { Auth0RolePermissionResourceType } from './Auth0RolePermissionResourceType.js';
 
 export type Auth0RolePermissionResource =
   CustomResourceInstance<Auth0RolePermissionProps>;

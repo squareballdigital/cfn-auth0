@@ -1,12 +1,7 @@
 import { CustomResourceHandlerBase } from '@squareball/cfn-custom-resource';
 import { ManagementClient } from 'auth0';
 import { CloudFormationCustomResourceEvent, Context } from 'aws-lambda';
-
-export interface Auth0ManagementClientProps {
-  Domain: string;
-  ManagementClientId: string;
-  ManagementClientSecret: string;
-}
+import { Auth0ManagementClientProps } from '../common/Auth0ManagementClientProps.js';
 
 export abstract class Auth0ResourceHandlerBase<
   Props extends Auth0ManagementClientProps,
