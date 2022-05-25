@@ -34,7 +34,7 @@
   "scripts": {
     "build": "npm run clean && npm run index && npm run compile && npm run compile:cjs && npm run lint && npm run bundle && npm run docs",
     "bundle": "cfnassets build --config assets.config.json",
-    "clean": "rm -rf docs/ lib/ *.tsbuildinfo",
+    "clean": "rm -rf lib/ *.tsbuildinfo",
     "compile": "npm run index && tsc",
     "compile:cjs": "tsc -p tsconfig.cjs.json",
     "dev:docs": "concurrently --kill-others npm:watch:docs npm:serve:docs",
