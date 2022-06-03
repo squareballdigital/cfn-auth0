@@ -7,7 +7,7 @@
     "esModuleInterop": true,
     "importHelpers": true,
     "lib": ["ES2020", "DOM"],
-    "module": "ES2022",
+    "module": "NodeNext",
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "outDir": "lib",
@@ -17,6 +17,6 @@
     "strict": true,
     "target": "ES2022"
   },
-  "include": ["src/"],
+  "include": ["src/", "PackagePath.cts"],
   "exclude": ["node_modules", "lib"]
 }

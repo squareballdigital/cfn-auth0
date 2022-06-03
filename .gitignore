@@ -1,6 +1,7 @@
 node_modules/
 dist/
 lib/
+cjs/
 .local/
 coverage/
 *.log

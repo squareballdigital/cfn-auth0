@@ -2,7 +2,6 @@
 export * from './common/Auth0CustomResourceAsset.js';
 export * from './common/Auth0ManagementClientProps.js';
 export * from './common/CustomResourceInstance.js';
-export * from './common/PackagePath.js';
 export * from './resources/api/Auth0ApiAttributes.js';
 export * from './resources/api/Auth0ApiProps.js';
 export * from './resources/api/Auth0ApiResourceType.js';
