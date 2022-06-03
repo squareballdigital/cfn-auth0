@@ -24,14 +24,9 @@
   },
   "files": [
     "dist/*.zip",
-    "lib/**/*.js",
-    "lib/**/*.d.ts",
-    "lib/**/*.map",
-    "!lib/**/*.test.*",
-    "cjs/**/*.js",
-    "!cjs/**/*.test.*",
-    "src/**/*.ts",
-    "!src/**/*.test.ts"
+    "cjs/",
+    "lib/",
+    "src/"
   ],
   "scripts": {
     "build": "npm run clean && npm run index && npm run compile && npm run compile:cjs && npm run lint && npm run bundle && npm run docs",
